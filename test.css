@@ -1,8 +1,33 @@
-*{
-    margin-left: 10px;
+/* *{
+    margin:0px;
     padding: 0px;
-}
+} */
 .test1{
     color: blue;
-    cursor: url("images/home.png"), auto;
+    /* cursor:url("https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg"),auto; */
+    cursor: pointer;
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 110px;
+    height: 110px;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}
+.container{
+    display: flex;
+    height: 300px;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row-reverse;
+    /* align-items: end; */
+    border: 1px solid gray;
 }
